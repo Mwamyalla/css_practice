@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #007BFF;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  #introduction {
+    background-color: #F0F0F0;
+    margin: 20px;
+    padding: 15px;
+  }
+
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  #skills li {
+    border: 1px solid #333;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    header, #introduction, #skills li, footer {
+      padding: 10px;
+      margin: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Lucas Myalla</h1>
+</header>
+
+<section id="introduction">
+  <h2>Introduction</h2>
+  <p>Hello, I am Lucas Myalla. Welcome to my portfolio!</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Virtual Basic Programming</li>
+    <li>C++</li>
+  </ul>
+</section>
+
+<footer>
+  <h2>Contact Information</h2>
+  <p>Email: lerasto40@gmail.com</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/lucas-myalla-86b397277" target="_blank">Lucas Myalla</a></p>
+  <p>GitHub: <a href="https://github.com/Mwamyalla" target="_blank">Mwamyalla</a></p>
+</footer>
+
+</body>
+</html>
